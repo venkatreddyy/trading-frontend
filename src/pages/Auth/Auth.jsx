@@ -6,15 +6,8 @@ import SignupForm from "./signup/SignupForm";
 import LoginForm from "./login/login";
 import { useLocation, useNavigate } from "react-router-dom";
 import { useState } from "react";
-import { Card } from "@/components/ui/card";
-import ForgotPassword from "./ForgotPassword";
 import ForgotPasswordForm from "./ForgotPassword";
-import { Skeleton } from "@/components/ui/skeleton";
 import { useSelector } from "react-redux";
-import SpinnerBackdrop from "@/components/custome/SpinnerBackdrop";
-import { Avatar, AvatarImage } from "@/components/ui/avatar";
-import { AvatarFallback } from "@radix-ui/react-avatar";
-import { ToastAction } from "@/components/ui/toast";
 import { useToast } from "@/components/ui/use-toast";
 import CustomeToast from "@/components/custome/CustomeToast";
 

@@ -4,7 +4,6 @@ import { AssetTable } from "./AssetTable";
 import { Button } from "@/components/ui/button";
 import StockChart from "../StockDetails/StockChart";
 import {
-  ChatBubbleIcon,
   ChevronLeftIcon,
   Cross1Icon,
   DotIcon,
@@ -25,18 +24,9 @@ import {
   PaginationNext,
 } from "@/components/ui/pagination";
 import { MessageCircle } from "lucide-react";
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
 import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import { sendMessage } from "@/Redux/Chat/Action";
-import { ScrollArea } from "@/components/ui/scroll-area";
 import SpinnerBackdrop from "@/components/custome/SpinnerBackdrop";
 
 const Home = () => {
