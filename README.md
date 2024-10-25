@@ -1,5 +1,12 @@
 # React + Vite
 
+Run Frontend
+- do "npm i"
+- npm run dev
+
+for fixing vulnerablities
+npm audit fix
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
